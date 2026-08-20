@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zuleno Technologies | Building Digital Futures</title>
+  <meta name="description"
+    content="Zuleno Technologies builds modern websites, custom software, SaaS platforms, AI-powered solutions and digital experiences for businesses worldwide.">
+  <link rel="canonical" href="https://www.zulenotechnologies.com/">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Zuleno Technologies | Building Digital Futures">
+  <meta property="og:description"
+    content="We build modern websites, software, SaaS platforms, AI-powered solutions and digital experiences that help businesses grow.">
+  <meta property="og:image" content="/assets/images/og-cover.jpg">
+  <meta property="og:url" content="https://www.zulenotechnologies.com/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zuleno Technologies | Building Digital Futures">
+  <meta name="twitter:description"
+    content="We build modern websites, software, SaaS platforms, AI-powered solutions and digital experiences that help businesses grow.">
+  <meta name="twitter:image" content="/assets/images/og-cover.jpg">
+
+  <link rel="icon" href="/zuleno-logo-dark.jpeg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/icons/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Zuleno Technologies",
+  "url": "https://www.zulenotechnologies.com/",
+  "email": "zulenotechnologies@gmail.com",
+  "description": "Zuleno Technologies builds modern websites, custom software, SaaS platforms, AI-powered solutions and digital experiences for businesses worldwide.",
+  "sameAs": []
+}
+</script>
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="navbar__logo" aria-label="Zuleno Technologies home">
+        <img src="/zuleno-logo-dark.jpeg" alt="Zuleno Technologies Logo" class="logo-img">
+        <span class="logo-word">Zuleno Technologies</span>
+      </a>
+
+      <nav class="navbar__links" id="navLinks" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch color theme"
+          aria-pressed="false">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8" />
+            <path
+              d="M12 2.5V5M12 19V21.5M4.5 12H2M22 12H19.5M5.6 5.6L7.3 7.3M18.4 18.4L16.7 16.7M18.4 5.6L16.7 7.3M5.6 18.4L7.3 16.7"
+              stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z" stroke="currentColor" stroke-width="1.8"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+        <a href="#contact" class="btn btn--primary btn--sm">Start a Project <span aria-hidden="true">→</span></a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="hero__grid-bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Web Development &nbsp;·&nbsp; Software &nbsp;·&nbsp; SaaS &nbsp;·&nbsp; AI &amp; Automation
+          </p>
+          <h1 class="hero__headline">Building Digital<br>Futures.</h1>
+          <p class="hero__sub">We build modern websites, software, SaaS platforms, AI-powered solutions and digital
+            experiences that help businesses grow.</p>
+          <div class="hero__ctas">
+            <a href="#contact" class="btn btn--primary">Start a Project <span aria-hidden="true">→</span></a>
+            <a href="#projects" class="btn btn--ghost">Explore Our Work <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="orbit-scene">
+            <svg viewBox="0 0 520 520" class="orbit-svg">
+              <defs>
+                <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.55" />
+                  <stop offset="100%" stop-color="#3B82F6" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+              <circle cx="260" cy="260" r="160" fill="url(#coreGlow)" />
+              <circle class="orbit-ring" cx="260" cy="260" r="90" fill="none" stroke="rgba(37,99,235,0.35)"
+                stroke-width="1" />
+              <circle class="orbit-ring orbit-ring--2" cx="260" cy="260" r="150" fill="none"
+                stroke="rgba(148,163,184,0.18)" stroke-width="1" />
+              <circle class="orbit-ring orbit-ring--3" cx="260" cy="260" r="205" fill="none"
+                stroke="rgba(148,163,184,0.10)" stroke-width="1" />
+
+              <g class="orbit-group orbit-group--1">
+                <circle cx="350" cy="260" r="5" fill="#2563EB" />
+              </g>
+              <g class="orbit-group orbit-group--2">
+                <circle cx="260" cy="110" r="4" fill="#60A5FA" />
+              </g>
+              <g class="orbit-group orbit-group--3">
+                <circle cx="465" cy="260" r="3.5" fill="#60A5FA" />
+              </g>
+              <g class="orbit-group orbit-group--4">
+                <circle cx="150" cy="360" r="4" fill="#2563EB" />
+              </g>
+
+              <circle cx="260" cy="260" r="46" fill="#0B1220" stroke="#2563EB" stroke-width="1.5" />
+              <path d="M242 250H278L242 270H278" stroke="#2563EB" stroke-width="2.6" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+
+            <div class="glass-card glass-card--1 float">
+              <span class="glass-card__dot"></span>
+              <span>Deploy successful</span>
+            </div>
+            <div class="glass-card glass-card--2 float-delay">
+              <div class="glass-card__bars">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="glass-card glass-card--3 float-delay2">
+              <span>AI Assistant</span>
+              <span class="glass-card__pulse"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TRUST STRIP ================= -->
+    <section class="trust-strip reveal">
+      <div class="container trust-strip__inner">
+        <h2 class="trust-strip__title">Technology. Design. Innovation.</h2>
+        <p class="trust-strip__text">Zuleno Technologies works with startups, businesses and organizations worldwide —
+          helping them plan, design and build digital products that hold up under real use.</p>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">What We Build</p>
+          <h2 class="section__title">Digital solutions designed around your business.</h2>
+        </div>
+
+        <div class="grid grid--3 reveal-stagger">
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6" />
+                <path d="M3 9H21" stroke="currentColor" stroke-width="1.6" />
+                <path d="M8 21H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h3>Web Development</h3>
+            <p>Modern, responsive and high-performance websites designed to turn visitors into customers.</p>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M8 9L4 12L8 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M16 9L20 12L16 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M13.5 6.5L10.5 17.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h3>Software Development</h3>
+            <p>Custom software systems built around real business workflows and operational needs.</p>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <ellipse cx="12" cy="6" rx="8" ry="3" stroke="currentColor" stroke-width="1.6" />
+                <path d="M4 6V18C4 19.66 7.58 21 12 21C16.42 21 20 19.66 20 18V6" stroke="currentColor"
+                  stroke-width="1.6" />
+                <path d="M4 12C4 13.66 7.58 15 12 15C16.42 15 20 13.66 20 12" stroke="currentColor"
+                  stroke-width="1.6" />
+              </svg>
+            </div>
+            <h3>SaaS Development</h3>
+            <p>Scalable cloud-ready platforms and subscription-based digital products.</p>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6" />
+                <path d="M12 3V5M12 19V21M21 12H19M5 12H3M18.4 5.6L17 7M7 17L5.6 18.4M18.4 18.4L17 17M7 7L5.6 5.6"
+                  stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h3>AI &amp; Automation</h3>
+            <p>AI-powered tools, intelligent assistants and automated workflows that improve productivity.</p>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M3 6H5L7 16H18L20 8H6.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <circle cx="9" cy="20" r="1.4" fill="currentColor" />
+                <circle cx="17" cy="20" r="1.4" fill="currentColor" />
+              </svg>
+            </div>
+            <h3>E-Commerce</h3>
+            <p>Modern online stores and commerce platforms designed for growth and conversion.</p>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="3" width="7" height="7" rx="1.2" stroke="currentColor" stroke-width="1.6" />
+                <rect x="14" y="3" width="7" height="7" rx="1.2" stroke="currentColor" stroke-width="1.6" />
+                <rect x="3" y="14" width="7" height="7" rx="1.2" stroke="currentColor" stroke-width="1.6" />
+                <rect x="14" y="14" width="7" height="7" rx="1.2" stroke="currentColor" stroke-width="1.6" />
+              </svg>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Clean, intuitive and conversion-focused digital interfaces designed around users.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SOLUTIONS ================= -->
+    <section class="section section--alt" id="solutions">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Solutions</p>
+          <h2 class="section__title">Solutions for Modern Businesses</h2>
+        </div>
+
+        <div class="grid grid--4 reveal-stagger">
+          <div class="pill-card">
+            <h4>Business Websites</h4>
+            <p>A professional online presence built to represent your business clearly and credibly.</p>
+          </div>
+          <div class="pill-card">
+            <h4>Custom Dashboards</h4>
+            <p>Internal tools that turn scattered data into a single, usable view.</p>
+          </div>
+          <div class="pill-card">
+            <h4>Restaurant Systems</h4>
+            <p>Ordering, menu and management tools built for real service-floor conditions.</p>
+          </div>
+          <div class="pill-card">
+            <h4>E-Commerce Platforms</h4>
+            <p>Storefronts built to guide visitors from browsing to checkout.</p>
+          </div>
+          <div class="pill-card">
+            <h4>Booking Systems</h4>
+            <p>Scheduling and reservation flows that reduce back-and-forth.</p>
+          </div>
+          <div class="pill-card">
+            <h4>AI Assistants</h4>
+            <p>Conversational tools that handle support, guidance and repetitive questions.</p>
+          </div>
+          <div class="pill-card">
+            <h4>Business Automation</h4>
+            <p>Workflows that remove manual steps from everyday operations.</p>
+          </div>
+          <div class="pill-card">
+            <h4>SaaS Platforms</h4>
+            <p>Multi-tenant products built to onboard and scale with your users.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHY ZULENO ================= -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Why Zuleno</p>
+          <h2 class="section__title">Why Choose Zuleno?</h2>
+        </div>
+
+        <div class="grid grid--4 reveal-stagger">
+          <div class="feature-block">
+            <span class="feature-block__num">01</span>
+            <h3>Modern Technology</h3>
+            <p>We use modern development practices to build reliable digital products.</p>
+          </div>
+          <div class="feature-block">
+            <span class="feature-block__num">02</span>
+            <h3>Business First</h3>
+            <p>We focus on solving business problems, not simply writing code.</p>
+          </div>
+          <div class="feature-block">
+            <span class="feature-block__num">03</span>
+            <h3>Built to Scale</h3>
+            <p>Our solutions are designed with future growth in mind.</p>
+          </div>
+          <div class="feature-block">
+            <span class="feature-block__num">04</span>
+            <h3>Long-Term Partnership</h3>
+            <p>We aim to build lasting relationships, not one-time transactions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2 class="section__title">Ideas transformed into digital experiences.</h2>
+        </div>
+
+        <div class="grid grid--3 reveal-stagger project-grid">
+          <article class="project-card">
+            <div class="project-card__thumb project-card__thumb--restoflow" aria-hidden="true"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">SaaS / Restaurant Technology</span>
+              <h3>RestoFlow</h3>
+              <p>Restaurant ordering and management platform.</p>
+              <a href="#restoflow" class="text-link">View Project <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb project-card__thumb--swiftcart" aria-hidden="true"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">E-Commerce</span>
+              <h3>SwiftCart</h3>
+              <p>Modern e-commerce platform.</p>
+              <a href="#" class="text-link">View Project <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb project-card__thumb--adeela" aria-hidden="true"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Education / Web Development</span>
+              <h3>Adeela Online Quran Academy</h3>
+              <p>Professional online education and Quran learning website.</p>
+              <a href="#" class="text-link">View Project <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb project-card__thumb--aqua" aria-hidden="true"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Business Website</span>
+              <h3>Aqua Fusion</h3>
+              <p>Modern website for a water-related business.</p>
+              <a href="#" class="text-link">View Project <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb project-card__thumb--estatepro" aria-hidden="true"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Real Estate / Software</span>
+              <h3>EstatePro</h3>
+              <p>Property and real estate digital platform.</p>
+              <a href="#" class="text-link">View Project <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb project-card__thumb--swiftai" aria-hidden="true"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Artificial Intelligence</span>
+              <h3>Swift AI</h3>
+              <p>AI-powered digital solution.</p>
+              <a href="#" class="text-link">View Project <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb project-card__thumb--yummy" aria-hidden="true"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Restaurant / Web Development</span>
+              <h3>Yummy Taste Studio</h3>
+              <p>Modern website concept for a fast-food/restaurant business.</p>
+              <span class="project-card__badge">Concept Project</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURED PROJECT: RESTOFLOW ================= -->
+    <section class="section featured" id="restoflow">
+      <div class="container featured__inner reveal">
+        <div class="featured__text">
+          <span class="project-card__tag">Featured Project</span>
+          <h2 class="section__title">RestoFlow</h2>
+          <p class="hero__sub">A restaurant ordering and management platform, built like a real SaaS product —
+            order-taking, QR table ordering and a live dashboard in one connected system.</p>
+          <ul class="feature-list">
+            <li>Live order dashboard for staff</li>
+            <li>QR-code table ordering for guests</li>
+            <li>Mobile-first ordering interface</li>
+            <li>Menu and inventory management</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Explore RestoFlow <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="featured__visual" aria-hidden="true">
+          <div class="mock-window">
+            <div class="mock-window__bar"><span></span><span></span><span></span></div>
+            <div class="mock-window__body">
+              <div class="mock-row"><span class="mock-chip">Table 04</span><span
+                  class="mock-chip mock-chip--blue">Preparing</span></div>
+              <div class="mock-row"><span class="mock-chip">Table 07</span><span
+                  class="mock-chip mock-chip--ok">Ready</span></div>
+              <div class="mock-row"><span class="mock-chip">Table 12</span><span
+                  class="mock-chip mock-chip--blue">Preparing</span></div>
+              <div class="mock-bars">
+                <span style="height:40%"></span><span style="height:70%"></span><span style="height:55%"></span><span
+                  style="height:90%"></span><span style="height:65%"></span>
+              </div>
+            </div>
+          </div>
+          <div class="mock-phone">
+            <div class="mock-phone__notch"></div>
+            <div class="mock-phone__screen">
+              <span class="mock-phone__title">Scan &amp; Order</span>
+              <span class="mock-phone__line"></span>
+              <span class="mock-phone__line short"></span>
+              <span class="mock-phone__btn">Add to order</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESS ================= -->
+    <section class="section section--alt" id="process">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">How We Build</p>
+          <h2 class="section__title">A clear process from idea to launch.</h2>
+        </div>
+
+        <div class="process reveal-stagger">
+          <div class="process__step">
+            <span class="process__num">01</span>
+            <h3>Discover</h3>
+            <p>Understand the business, audience and goals.</p>
+          </div>
+          <div class="process__step">
+            <span class="process__num">02</span>
+            <h3>Plan</h3>
+            <p>Define requirements, architecture and roadmap.</p>
+          </div>
+          <div class="process__step">
+            <span class="process__num">03</span>
+            <h3>Design</h3>
+            <p>Create the user experience and visual system.</p>
+          </div>
+          <div class="process__step">
+            <span class="process__num">04</span>
+            <h3>Develop</h3>
+            <p>Build the product using modern technology.</p>
+          </div>
+          <div class="process__step">
+            <span class="process__num">05</span>
+            <h3>Launch</h3>
+            <p>Test, deploy and support the final solution.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GLOBAL REACH ================= -->
+    <section class="section global-reach">
+      <div class="container global-reach__inner reveal">
+        <div class="global-reach__text">
+          <h2 class="section__title">Built for a Global Audience</h2>
+          <p class="hero__sub">From Pakistan to the world, Zuleno Technologies builds digital solutions for businesses
+            ready to move forward.</p>
+          <div class="market-tags">
+            <span>Pakistan</span><span>United Kingdom</span><span>United States</span><span>UAE</span>
+            <span>Saudi Arabia</span><span>Europe</span><span>Canada</span><span>Australia</span><span>Worldwide</span>
+          </div>
+        </div>
+        <div class="global-reach__visual" aria-hidden="true">
+          <svg viewBox="0 0 400 240" class="world-net">
+            <g stroke="rgba(37,99,235,0.35)" stroke-width="1">
+              <line x1="60" y1="60" x2="180" y2="110" />
+              <line x1="180" y1="110" x2="300" y2="70" />
+              <line x1="180" y1="110" x2="260" y2="180" />
+              <line x1="180" y1="110" x2="100" y2="180" />
+              <line x1="300" y1="70" x2="350" y2="150" />
+            </g>
+            <g fill="#2563EB">
+              <circle cx="60" cy="60" r="4" />
+              <circle cx="180" cy="110" r="6" />
+              <circle cx="300" cy="70" r="4" />
+              <circle cx="260" cy="180" r="4" />
+              <circle cx="100" cy="180" r="4" />
+              <circle cx="350" cy="150" r="4" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container about__inner reveal">
+        <div class="section__head">
+          <p class="eyebrow">About Zuleno</p>
+          <h2 class="section__title">Technology With Purpose</h2>
+        </div>
+        <p class="about__lead">Zuleno Technologies is a modern digital technology company dedicated to building
+          meaningful digital experiences and scalable technology solutions. We help startups, businesses and
+          organizations transform ideas into modern websites, custom software, SaaS platforms, AI-powered solutions and
+          intelligent digital systems.</p>
+        <p class="about__lead">From strategy and UI/UX design to development and deployment, we combine creativity,
+          technology and business thinking to build solutions designed for real-world impact. Our vision is simple:
+          build digital products that help businesses move forward.</p>
+
+        <div class="grid grid--3 about__mvv">
+          <div class="mvv-card">
+            <h3>Mission</h3>
+            <p>To build reliable, modern and accessible digital solutions that create real business value.</p>
+          </div>
+          <div class="mvv-card">
+            <h3>Vision</h3>
+            <p>To become a trusted global technology company known for innovation, quality and meaningful digital
+              products.</p>
+          </div>
+          <div class="mvv-card">
+            <h3>Values</h3>
+            <p>Innovation, Integrity, Quality, Customer Focus and Continuous Learning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 class="section__title">Frequently asked questions</h2>
+        </div>
+
+        <div class="accordion reveal" id="accordion">
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>What services does Zuleno Technologies provide?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel">
+              <p>We build websites, custom software, SaaS platforms, e-commerce stores, AI and automation tools, and
+                UI/UX design for businesses of all sizes.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>Do you work with international clients?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel">
+              <p>Yes. We work with clients across Pakistan, the UK, the US, the UAE, Saudi Arabia, Europe, Canada,
+                Australia and beyond, entirely online.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>Can you build custom software?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel">
+              <p>Yes. We design and build custom software systems around your specific operational workflows, not
+                off-the-shelf templates.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>Can you build SaaS products?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel">
+              <p>Yes. We build scalable, cloud-ready, subscription-based SaaS platforms from the ground up.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>Do you provide AI and automation solutions?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel">
+              <p>Yes. We build AI-powered tools, intelligent assistants and automated workflows tailored to your
+                business processes.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>How do I start a project?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel">
+              <p>Send us a message through the project inquiry form or WhatsApp, and our team will follow up to discuss
+                your goals.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>How long does a typical project take?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel">
+              <p>Timelines depend on scope and complexity. We share a realistic timeline with you after understanding
+                your requirements.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>Can you maintain and support a website after launch?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel">
+              <p>Yes. We offer ongoing maintenance and support so your product keeps running smoothly after launch.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="cta reveal">
+      <div class="container cta__inner">
+        <h2 class="cta__title">Have an idea? Let's build it.</h2>
+        <p class="cta__text">Whether you're launching a new business, improving an existing system or building the next
+          digital product, let's turn your idea into something real.</p>
+        <div class="cta__actions">
+          <a href="#contact" class="btn btn--primary">Start a Project <span aria-hidden="true">→</span></a>
+          <a href="#" id="ctaWhatsapp" class="btn btn--ghost">Talk on WhatsApp <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container contact__inner">
+        <div class="section__head reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 class="section__title">Tell us about your project</h2>
+          <p class="hero__sub">Share a few details and our team will get back to you shortly.</p>
+
+          <div class="contact__direct">
+            <a href="mailto:zulenotechnologies@gmail.com" class="contact__direct-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6" />
+                <path d="M3 7L12 13L21 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+              </svg>
+              zulenotechnologies@gmail.com
+            </a>
+            <a href="#" id="directWhatsapp" class="contact__direct-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 3C7.03 3 3 7.03 3 12C3 13.66 3.45 15.22 4.24 16.56L3 21L7.58 19.79C8.87 20.5 10.38 20.9 12 20.9C16.97 20.9 21 16.87 21 11.9C21 6.93 16.97 3 12 3Z"
+                  stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+              </svg>
+              0302 1585266
+            </a>
+          </div>
+        </div>
+
+        <form class="inquiry-form reveal" id="inquiryForm" name="project-inquiry" data-netlify="true"
+          netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="project-inquiry">
+          <p class="hidden-field"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-field">
+              <label for="whatsapp">WhatsApp</label>
+              <input type="tel" id="whatsapp" name="whatsapp">
+            </div>
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company">
+            </div>
+            <div class="form-field">
+              <label for="service">Service Required</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option>Web Development</option>
+                <option>Software Development</option>
+                <option>SaaS Development</option>
+                <option>AI &amp; Automation</option>
+                <option>E-Commerce</option>
+                <option>UI/UX Design</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="budget">Budget</label>
+              <select id="budget" name="budget" required>
+                <option value="" disabled selected>Select a range</option>
+                <option>Under $250</option>
+                <option>$250 – $500</option>
+                <option>$500 – $1,000</option>
+                <option>$1,000 – $2,500</option>
+                <option>$2,500+</option>
+                <option>Not Sure Yet</option>
+              </select>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="details">Project Details</label>
+              <textarea id="details" name="details" rows="5" required></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--wide">Send Project Inquiry <span
+              aria-hidden="true">→</span></button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#home" class="navbar__logo">
+          <svg class="logo-mark" width="30" height="30" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="32" height="32" rx="9" stroke="#2563EB" stroke-width="2" />
+            <path d="M10 12H24L10 22H24" stroke="#2563EB" stroke-width="2.4" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          <span class="logo-word">Zuleno<span class="logo-word__accent">.</span></span>
+        </a>
+        <p class="footer__tagline">BUILDING DIGITAL FUTURES</p>
+        <p class="footer__desc">A modern technology company building websites, software, SaaS platforms and AI-powered
+          solutions for businesses worldwide.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/zulenotechnologiesofficial?utm_source=qr&igsh=bzM3dHZuMDBmb3A2"
+            aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6" />
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6" />
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+            </svg></a>
+          <a href="https://www.facebook.com/share/1ENPvzd4Ry/" aria-label="Facebook"><svg width="18" height="18"
+              viewBox="0 0 24 24" fill="none">
+              <path
+                d="M14 8.5H16.5V5H14C12.07 5 10.5 6.57 10.5 8.5V11H8.5V14.5H10.5V21H14V14.5H16.3L16.8 11H14V9.2C14 8.8 14 8.5 14 8.5Z"
+                stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" />
+            </svg></a>
+          <a href="https://www.linkedin.com/company/zuleno-technologies/" aria-label="LinkedIn"><svg width="18"
+              height="18" viewBox="0 0 24 24" fill="none">
+              <rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.6" />
+              <circle cx="8" cy="8.5" r="1.2" fill="currentColor" />
+              <path d="M8 11.5V17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+              <path d="M12 17V13.8C12 12.5 12.8 11.5 14.1 11.5C15.3 11.5 16 12.4 16 13.8V17" stroke="currentColor"
+                stroke-width="1.6" stroke-linecap="round" />
+            </svg></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Services</h4>
+        <a href="#services">Web Development</a>
+        <a href="#services">Software Development</a>
+        <a href="#services">SaaS</a>
+        <a href="#services">AI &amp; Automation</a>
+        <a href="#services">E-Commerce</a>
+        <a href="#services">UI/UX</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="mailto:zulenotechnologies@gmail.com">zulenotechnologies@gmail.com</a>
+        <a href="#" id="footerWhatsapp">0302 1585266</a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 Zuleno Technologies. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script src="assets/js/inquiry.js"></script>
+</body>
+
+</html>
